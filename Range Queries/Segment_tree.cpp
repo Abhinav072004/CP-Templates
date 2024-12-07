@@ -86,4 +86,17 @@ struct Update1 {
 		a.val = val; // may change
 	}
 };
-
+int main (){
+    int n ,q;
+    cin>>n>>q;
+    vector<int> a(n);
+    for(auto &it:a) cin>>it;
+    build(0,n-1,0);
+    while(q--){
+        int left,right;
+        cin>>left>>right;
+        cout<<query(0,n-1,0,left,right)<<endl;
+    }
+   return 0; 
+}
+        
