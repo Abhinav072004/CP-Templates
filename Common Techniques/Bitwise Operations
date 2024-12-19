@@ -19,3 +19,10 @@ int a = 5; //  101
 
     // Bitwise Right Shift
     int right_shift = a >> 1;
+
+
+// Function to find the height of tree
+std::__lg(i) gives the height of the current node from the root.
+For example:
+std::__lg(8) = 3 (binary 1000).
+std::__lg(10) = 3 (binary 1010).
