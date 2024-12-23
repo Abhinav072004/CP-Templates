@@ -89,3 +89,5 @@ int main() {
     cerr << "Time: " << duration . count() / 1000 << endl;
 #endif
 }
+known.find(a[i]) == known.end()
+//The condition known.find(a[i]) == known.end() evaluates to true when a[i] is not present in the set of known questions
